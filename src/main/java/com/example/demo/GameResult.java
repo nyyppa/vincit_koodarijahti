@@ -8,4 +8,20 @@ public class GameResult {
         this.points = points;
         this.numberOfNeededPresses = numberOfNeededPresses;
     }
+
+    public int getPoints() {
+        return points;
+    }
+
+    public void setPoints(int points) {
+        this.points = points;
+    }
+
+    public int getNumberOfNeededPresses() {
+        return numberOfNeededPresses;
+    }
+
+    public void setNumberOfNeededPresses(int numberOfNeededPresses) {
+        this.numberOfNeededPresses = numberOfNeededPresses;
+    }
 }
